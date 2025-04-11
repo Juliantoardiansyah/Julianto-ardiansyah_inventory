@@ -1,13 +1,13 @@
 <?php
 $id = $_GET['id'];
 
-$nama_jenis = $_POST['lokasi'];
+$nama_jenis = $_POST['nama_jenis'];
 
 include '../../config/koneksi.php';
 
 $query = mysqli_query($conn, "UPDATE jenis SET
-    nama_jenis='$nama_jenis',
-WHERE id_barang='$id'");
+    id_jenis='$id_jenis'
+WHERE nama_jenis='$nama_jenis'");
 
 // Javascript
 if ($query) {

@@ -9,7 +9,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">ARDIANSYAH</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,7 +19,7 @@
           <a class="nav-link active" aria-current="page" href="#">jenis</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../kendaraan/index.php">barang</a>
+          <a class="nav-link" href="../barang/index.php">barang</a>
         </li>
       </ul>
     </div>
@@ -28,27 +28,27 @@
 
 
 <div class="container"> 
-  <h1>data julianto</h1>
-<form>
+  <h1>DATA BARANG JULIANTO</h1>
+<form action="proses_tambah.php" method="POST">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">id barang </label>
+    <label for="exampleInputEmail1" class="form-label">ID Barang</label>
     <input type="int" class="form-control" name="id_barang" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">nama barang</label>
-    <input type="varchar" class="form-control" name="nama barang" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">Nama Barang</label>
+    <input type="varchar" class="form-control" name="nama_barang" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">id jenis</label>
-    <input type="varchar" class="form-control" name="id jenis" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">ID Jenis</label>
+    <input type="int" class="form-control" name="id_jenis" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">harga</label>
-    <input type="varchar" class="form-control" name="harga" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">Harga</label>
+    <input type="int" class="form-control" name="harga" id="exampleInputPassword1">
   </div>
   <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">stok</label>
-    <input type="varchar" class="form-control" name="stok" id="exampleInputPassword1">
+    <label for="exampleInputPassword1" class="form-label">Stok</label>
+    <input type="int" class="form-control" name="stok" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
